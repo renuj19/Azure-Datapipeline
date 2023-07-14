@@ -1,0 +1,9 @@
+{
+	"name": "rj-datafactory",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "916c3d9e-3232-4560-8537-59bf5a6cdef9",
+		"tenantId": "42268695-f2a5-4175-8f16-386de75b68e0"
+	}
+}

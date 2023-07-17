@@ -1,8 +1,8 @@
 {
-	"name": "AzureSqlTable5",
+	"name": "AzureSqlTable7",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "DatatypeChangeFlow",
+			"referenceName": "AzureSqlDatabase4",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -74,7 +74,7 @@
 		],
 		"typeProperties": {
 			"schema": "SalesLT",
-			"table": "Customer"
+			"table": "Customer2"
 		}
 	}
 }

@@ -23,9 +23,11 @@
 					"sink": {
 						"type": "AzureSqlSink",
 						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false
+						"sqlWriterUseTableLock": false,
+						"disableMetricsCollection": false
 					},
 					"enableStaging": false,
+					"parallelCopies": 1,
 					"translator": {
 						"type": "TabularTranslator",
 						"typeConversion": true,

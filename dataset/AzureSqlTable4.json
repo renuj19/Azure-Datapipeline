@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlTable4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DatatypeChangeFlow",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SalesLT",
+			"table": "Customer2"
+		}
+	}
+}

@@ -17,6 +17,9 @@
 		"AzureSqlDatabase3_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase4_connectionString": {
+			"value": ""
+		},
 		"DatatypeChangeFlow_connectionString": {
 			"value": ""
 		},

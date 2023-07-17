@@ -390,7 +390,7 @@
 				],
 				"typeProperties": {
 					"schema": "SalesLT",
-					"table": "Customer1"
+					"table": "Customer2"
 				}
 			},
 			"dependsOn": [

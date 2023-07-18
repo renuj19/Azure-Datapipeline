@@ -65,7 +65,6 @@
 								"parameters": {},
 								"datasetParameters": {
 									"source1": {},
-									"sink1": {},
 									"sink2": {}
 								}
 							},
@@ -1157,13 +1156,6 @@
 					"sinks": [
 						{
 							"dataset": {
-								"referenceName": "DelimitedText2",
-								"type": "DatasetReference"
-							},
-							"name": "sink1"
-						},
-						{
-							"dataset": {
 								"referenceName": "AddressDestination",
 								"type": "DatasetReference"
 							},
@@ -1194,10 +1186,6 @@
 						"source1 filter(City=='Bothell') ~> filter1",
 						"filter1 sink(allowSchemaDrift: true,",
 						"     validateSchema: false,",
-						"     skipDuplicateMapInputs: true,",
-						"     skipDuplicateMapOutputs: true) ~> sink1",
-						"filter1 sink(allowSchemaDrift: true,",
-						"     validateSchema: false,",
 						"     input(",
 						"          AddressID as integer,",
 						"          AddressLine1 as string,",
@@ -1222,7 +1210,6 @@
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/AddressTable')]",
-				"[concat(variables('factoryId'), '/datasets/DelimitedText2')]",
 				"[concat(variables('factoryId'), '/datasets/AddressDestination')]"
 			]
 		}

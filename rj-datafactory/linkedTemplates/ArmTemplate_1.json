@@ -117,13 +117,6 @@
 					"sinks": [
 						{
 							"dataset": {
-								"referenceName": "DelimitedText2",
-								"type": "DatasetReference"
-							},
-							"name": "sink1"
-						},
-						{
-							"dataset": {
 								"referenceName": "AddressDestination",
 								"type": "DatasetReference"
 							},
@@ -152,10 +145,6 @@
 						"     isolationLevel: 'READ_UNCOMMITTED',",
 						"     format: 'table') ~> source1",
 						"source1 filter(City=='Bothell') ~> filter1",
-						"filter1 sink(allowSchemaDrift: true,",
-						"     validateSchema: false,",
-						"     skipDuplicateMapInputs: true,",
-						"     skipDuplicateMapOutputs: true) ~> sink1",
 						"filter1 sink(allowSchemaDrift: true,",
 						"     validateSchema: false,",
 						"     input(",
@@ -207,7 +196,6 @@
 								"parameters": {},
 								"datasetParameters": {
 									"source1": {},
-									"sink1": {},
 									"sink2": {}
 								}
 							},

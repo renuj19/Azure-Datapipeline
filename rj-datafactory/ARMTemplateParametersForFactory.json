@@ -20,6 +20,9 @@
 		"AzureSqlDatabase4_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase5_connectionString": {
+			"value": ""
+		},
 		"DatatypeChangeFlow_connectionString": {
 			"value": ""
 		}

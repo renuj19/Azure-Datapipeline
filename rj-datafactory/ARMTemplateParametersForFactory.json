@@ -25,6 +25,12 @@
 		},
 		"DatatypeChangeFlow_connectionString": {
 			"value": ""
+		},
+		"inputblob_connectionString": {
+			"value": ""
+		},
+		"outputdatabase_connectionString": {
+			"value": ""
 		}
 	}
 }

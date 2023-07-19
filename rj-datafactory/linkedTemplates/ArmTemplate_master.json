@@ -35,6 +35,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'DatatypeChangeFlow'"
 		},
+		"inputblob_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'inputblob'"
+		},
+		"outputdatabase_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'outputdatabase'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -82,6 +90,12 @@
 					},
 					"DatatypeChangeFlow_connectionString": {
 						"value": "[parameters('DatatypeChangeFlow_connectionString')]"
+					},
+					"inputblob_connectionString": {
+						"value": "[parameters('inputblob_connectionString')]"
+					},
+					"outputdatabase_connectionString": {
+						"value": "[parameters('outputdatabase_connectionString')]"
 					}
 				}
 			},

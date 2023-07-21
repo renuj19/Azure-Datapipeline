@@ -1,0 +1,23 @@
+{
+	"name": "outputcsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "outputblob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "moviedetails.csv",
+				"container": "outputdata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

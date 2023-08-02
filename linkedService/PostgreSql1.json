@@ -1,0 +1,12 @@
+{
+	"name": "PostgreSql1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "PostgreSql",
+		"typeProperties": {
+			"connectionString": "host=db.ggafvqzrpivmjbcdgvlk.supabase.co;port=5432;database=postgres;uid=postgres;encryptionmethod=0",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDBGQjM5ODlELTJDQzktNEFDMC04QTBFLTlBMTIyMDBERjM2RV9lZTZlZTk3Ny0zOGIyLTRjMTAtYmVjZS1jMWYyYjU4YjExM2EiDQp9"
+		}
+	}
+}
